@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="get">
+        <input type="text" placeholder="Nome" id="nome">
+        <input type="text" placeholder="E-mail" id="email">
+        <input type="text" placeholder="Telefone" id="tel">
+        <input type="text" placeholder="Cidade" id="cidade">
+        <button onclick="cadastrar()">Enviar</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Telefone</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+
+    <script src="events.js"></script>
+</body>
+</html>
